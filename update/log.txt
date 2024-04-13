@@ -1,0 +1,25 @@
+running ['C:\\Users\\elija\\Desktop\\renpy\\renpy+\\lib\\py3-windows-x86_64\\zsync.exe', '-o', 'C:\\Users\\elija\\Desktop\\renpy\\renpy+\\update\\sdk.update.new', '-k', 'C:\\Users\\elija\\Desktop\\renpy\\renpy+\\update\\sdk.zsync', '-i', 'C:\\Users\\elija\\Desktop\\renpy\\renpy+\\update\\sdk.update', '-i', 'C:\\Users\\elija\\Desktop\\renpy\\renpy+\\update\\renios.update', 'http://update.renpy.org/release-8/renpy-8.2.1-sdk.zsync']
+partfile does not exist
+partfile does not exist
+partfile does not exist
+partfile does not exist
+running ['C:\\Users\\elija\\Desktop\\renpy\\renpy+\\lib\\py3-windows-x86_64\\zsync.exe', '-o', 'C:\\Users\\elija\\Desktop\\renpy\\renpy+\\update\\renios.update.new', '-k', 'C:\\Users\\elija\\Desktop\\renpy\\renpy+\\update\\renios.zsync', '-i', 'C:\\Users\\elija\\Desktop\\renpy\\renpy+\\update\\sdk.update', '-i', 'C:\\Users\\elija\\Desktop\\renpy\\renpy+\\update\\renios.update', 'http://update.renpy.org/release-8/renpy-8.2.1-renios.zsync']
+partfile does not exist
+partfile does not exist
+partfile does not exist
+partfile does not exist
+partfile does not exist
+partfile does not exist
+partfile does not exist
+partfile does not exist
+partfile does not exist
+partfile does not exist
+partfile does not exist
+partfile does not exist
+partfile does not exist
+partfile does not exist
+partfile does not exist
+partfile does not exist
+partfile does not exist
+partfile does not exist
+could not rename file \\?\C:\Users\elija\Desktop\renpy\renpy+\launcher\game\fonts\Roboto-Light.ttfcould not rename file \\?\C:\Users\elija\Desktop\renpy\renpy+\launcher\game\fonts\Roboto-Regular.ttfcould not rename file \\?\C:\Users\elija\Desktop\renpy\renpy+\renpy\common\DejaVuSans.ttfcould not rename file \\?\C:\Users\elija\Desktop\renpy\renpy+\sdk-fonts\SourceHanSansLite.ttfR \\?\C:\Users\elija\Desktop\renpy\renpy+\launcher\game\fonts\Roboto-Light.ttfR \\?\C:\Users\elija\Desktop\renpy\renpy+\launcher\game\fonts\Roboto-Regular.ttfR \\?\C:\Users\elija\Desktop\renpy\renpy+\renpy\common\DejaVuSans.ttfR \\?\C:\Users\elija\Desktop\renpy\renpy+\sdk-fonts\SourceHanSansLite.ttf

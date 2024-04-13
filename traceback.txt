@@ -1,0 +1,57 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/distribute_gui.rpy", line 294, in <module>
+  File "game/project.rpy", line 310, in update_dump
+  File "launcher/game/interface.rpy", line 503, in processing
+    common(_("PROCESSING"), store.INTERACTION_COLOR, message, submessage, pause0=True, complete=complete, total=total, **kwargs)
+  File "launcher/game/interface.rpy", line 323, in common
+    return screen_func("common", title=title, title_color=title_color, message=message, submessage=submessage, back=back, continue_=continue_, **kwargs)
+  File "renpy/common/00director.rpy", line 297, in interact
+    show_director = interact_base()
+  File "renpy/common/00director.rpy", line 248, in interact_base
+    if [ i for i in renpy.scriptedit.nodes_on_line(filename, line) if not isinstance(i, ALONE_NODES) ]:
+  File "renpy/common/00director.rpy", line 248, in <lambda>
+    if [ i for i in renpy.scriptedit.nodes_on_line(filename, line) if not isinstance(i, ALONE_NODES) ]:
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa5 in position 48: invalid start byte
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "launcher/game/front_page.rpyc", line 246, in script call
+  File "launcher/game/distribute_gui.rpyc", line 303, in script call
+  File "launcher/game/distribute_gui.rpyc", line 293, in script
+  File "C:\Users\elija\Desktop\renpy\renpy+\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\elija\Desktop\renpy\renpy+\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/distribute_gui.rpy", line 294, in <module>
+  File "game/project.rpy", line 310, in update_dump
+  File "launcher/game/interface.rpy", line 503, in processing
+    common(_("PROCESSING"), store.INTERACTION_COLOR, message, submessage, pause0=True, complete=complete, total=total, **kwargs)
+  File "launcher/game/interface.rpy", line 323, in common
+    return screen_func("common", title=title, title_color=title_color, message=message, submessage=submessage, back=back, continue_=continue_, **kwargs)
+  File "C:\Users\elija\Desktop\renpy\renpy+\renpy\exports.py", line 3413, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+  File "C:\Users\elija\Desktop\renpy\renpy+\renpy\ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\elija\Desktop\renpy\renpy+\renpy\display\core.py", line 2151, in interact
+    i()
+  File "renpy/common/00director.rpy", line 297, in interact
+    show_director = interact_base()
+  File "renpy/common/00director.rpy", line 248, in interact_base
+    if [ i for i in renpy.scriptedit.nodes_on_line(filename, line) if not isinstance(i, ALONE_NODES) ]:
+  File "renpy/common/00director.rpy", line 248, in <lambda>
+    if [ i for i in renpy.scriptedit.nodes_on_line(filename, line) if not isinstance(i, ALONE_NODES) ]:
+  File "C:\Users\elija\Desktop\renpy\renpy+\renpy\scriptedit.py", line 255, in nodes_on_line
+    ensure_loaded(filename)
+  File "C:\Users\elija\Desktop\renpy\renpy+\renpy\scriptedit.py", line 92, in ensure_loaded
+    renpy.lexer.list_logical_lines(fn, add_lines=True)
+  File "C:\Users\elija\Desktop\renpy\renpy+\renpy\lexer.py", line 278, in list_logical_lines
+    data = f.read().decode("utf-8", "python_strict")
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa5 in position 48: invalid start byte
+
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.2.1.24030407
+Ren'Py+ Launcher 1.0.0
+Wed Apr  3 16:09:15 2024

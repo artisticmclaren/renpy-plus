@@ -1,0 +1,5 @@
+Multiple custom themes
+Multiple project directories
+CSS support for placement of images
+Better image placement system in developer menu
+
